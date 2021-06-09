@@ -1,0 +1,75 @@
+.sign {
+  margin-left: 93px;
+}
+
+.sign-forum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-form-input {
+  width: 358px;
+  height: 50px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sign-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-form-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.sign-form-btn {
+  width: 200px;
+  height: 50px;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.wrapper-sign-input-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-form-btn-wrapper {
+  font-family: "Roboto";
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 10px;
+}
