@@ -16,10 +16,10 @@
   padding: 16px 32px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.link-clients:hover .icon-logo-clients,
-.link-clients:focus .icon-logo-clients {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  .link-clients:hover &,
+  .link-clients:focus & {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
