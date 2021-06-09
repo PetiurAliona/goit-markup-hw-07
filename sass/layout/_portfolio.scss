@@ -1,5 +1,7 @@
-.button-item:not(:last-child) {
-  margin-right: 8px;
+.button-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .filter {
@@ -14,11 +16,11 @@
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
   transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.examples-item:hover,
-.examples-item:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 
 .examples-text {
@@ -47,17 +49,13 @@
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.button-filter:hover,
-.button-filter:focus {
-  color: var(--white-color-text);
-  background-color: var(--accent-color);
-}
-
-.button-filter:hover,
-.button-filter:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  &:hover,
+  &:focus {
+    color: var(--white-color-text);
+    background-color: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
 
 .examples-title {
@@ -98,9 +96,9 @@
 
   color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
-}
 
-.examples-wrapper-list:hover .overlay-examples,
-.examples-wrapper-list:focus .overlay-examples {
-  transform: translateY(0%);
+  .examples-wrapper-list:hover &,
+  .examples-wrapper-list:focus & {
+    transform: translateY(0%);
+  }
 }
