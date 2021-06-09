@@ -1,23 +1,23 @@
-.footer {
+.page-footer {
   background-color: var(--dark-bg);
   color: var(--white-color-text);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.container-footer {
+.page-footer__container {
   display: flex;
 }
 
-.footer-contacts {
+.page-footer__list {
   margin-right: 70px;
 }
 
-.map {
+.page-footer__map {
   color: #ffffff;
 }
 
-.contacts-footer a {
+.page-footer__contacts {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -26,16 +26,16 @@
   display: block;
 }
 
-.mail,
-.tel {
+.page-footer__tel {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mail-footer {
+.page-footer__mail {
   margin-bottom: 9px;
   margin-top: 9px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.title-footer {
+.join__title {
   color: var(--white-color-text);
 }

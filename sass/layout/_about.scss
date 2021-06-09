@@ -1,11 +1,11 @@
-.about-item {
+.about__item {
   flex-basis: calc((100% - 90px) / 3);
   position: relative;
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.label-about {
+.about__label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,14 +28,6 @@
   color: var(--white-color-text);
 }
 
-.section-about {
+.about {
   padding-top: 0;
-}
-
-.section-title1 {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }

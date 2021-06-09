@@ -120,7 +120,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-footer {
+.page-footer__logo {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--white-color-text);
@@ -448,6 +448,23 @@ body {
   color: #ffffff;
 }
 
+.section__title1 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 page-header {
   background-color: var(--white-color-text);
   border-bottom: 1px solid #ececec;
@@ -613,14 +630,22 @@ page-header {
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.about-item {
+.benefits__desc {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+}
+
+.about__item {
   flex-basis: calc((100% - 90px) / 3);
   position: relative;
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.label-about {
+.about__label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -640,19 +665,11 @@ page-header {
   color: var(--white-color-text);
 }
 
-.section-about {
+.about {
   padding-top: 0;
 }
 
-.section-title1 {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.team-item {
+.ourteam__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
@@ -661,16 +678,7 @@ page-header {
   border-radius: 0px 0px 4px 4px;
 }
 
-.p-benefits {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 0;
-  letter-spacing: 0.03em;
-}
-
-.section-title,
-.section-title-team {
+.ourteam__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -679,11 +687,11 @@ page-header {
   margin-bottom: 50px;
 }
 
-.section-team {
+.team {
   background-color: var(--secondary-bg);
 }
 
-.name {
+.ourteam__name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -691,24 +699,24 @@ page-header {
   text-align: center;
 }
 
-.our-team-position {
+.ourteam__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
 }
 
-.name-list {
+.ourteam__name-list {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.clients-logo {
+.clients__logo {
   display: flex;
   justify-content: space-between;
 }
 
-.icon-logo-clients {
+.clients__cards {
   display: flex;
   width: 170px;
   height: 92px;
@@ -721,32 +729,32 @@ page-header {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-clients:hover .icon-logo-clients,
-.link-clients:focus .icon-logo-clients {
+.clients__link:hover .clients__cards,
+.clients__link:focus .clients__cards {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
-.footer {
+.page-footer {
   background-color: var(--dark-bg);
   color: var(--white-color-text);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.container-footer {
+.page-footer__container {
   display: flex;
 }
 
-.footer-contacts {
+.page-footer__list {
   margin-right: 70px;
 }
 
-.map {
+.page-footer__map {
   color: #ffffff;
 }
 
-.contacts-footer a {
+.page-footer__contacts {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -755,17 +763,17 @@ page-header {
   display: block;
 }
 
-.mail,
-.tel {
+.page-footer__tel {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mail-footer {
+.page-footer__mail {
   margin-bottom: 9px;
   margin-top: 9px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.title-footer {
+.join__title {
   color: var(--white-color-text);
 }
 
