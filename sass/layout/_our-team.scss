@@ -1,0 +1,51 @@
+.team-item {
+  margin-left: 30px;
+  margin-top: 30px;
+
+  flex-basis: calc((100% - 120px) / 4);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.p-benefits {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+}
+
+.section-title,
+.section-title-team {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-team {
+  background-color: var(--secondary-bg);
+}
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.our-team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.name-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
