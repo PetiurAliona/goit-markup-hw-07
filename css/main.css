@@ -81,15 +81,6 @@ body {
   margin: 0;
 }
 
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-  padding: 0;
-  list-style: none;
-}
-
 .section {
   color: var(--primary-text-color);
   padding-bottom: 94px;
@@ -102,6 +93,15 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
+  list-style: none;
 }
 
 .logo {
@@ -120,17 +120,7 @@ body {
   color: var(--accent-color);
 }
 
-.page-footer__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: var(--white-color-text);
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,18 +131,17 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover, .social-list-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-link-icon {
+.social-list__link-icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 }
 
-.social-list-link:hover .social-list-link-icon,
-.social-list-link:focus .social-list-link-icon {
+.social-list__link-icon:focus, .social-list__link-icon:hover {
   fill: var(--white-color-text);
 }
 
@@ -161,21 +150,21 @@ body {
   justify-content: center;
 }
 
-.social-list-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-link-dark {
+.social-list__link--dark {
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link-icon-dark {
+.social-list__link--dark-icon {
   fill: #ffffff;
 }
 
@@ -740,6 +729,16 @@ page-header {
   color: var(--white-color-text);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.page-footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--white-color-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .page-footer__container {

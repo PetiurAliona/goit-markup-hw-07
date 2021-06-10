@@ -1,4 +1,4 @@
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,13 +15,13 @@
   }
 }
 
-.social-list-link-icon {
+.social-list__link-icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  &:focus,
+  &:hover {
     fill: var(--white-color-text);
   }
 }

@@ -3,11 +3,11 @@
   justify-content: center;
 }
 
-.social-list-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
