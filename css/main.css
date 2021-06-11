@@ -456,7 +456,7 @@ body {
   margin-bottom: 50px;
 }
 
-page-header {
+.page-header {
   background-color: var(--white-color-text);
   border-bottom: 1px solid #ececec;
 }
